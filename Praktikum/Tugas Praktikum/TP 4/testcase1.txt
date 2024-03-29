@@ -1,0 +1,15 @@
+MAKETREE buyut;
+CHILD kakek buyut;
+CHILD nenek buyut;
+CHILD paman nenek;
+CHILD bibi nenek;
+CHILD mamah nenek;
+CHILD aku mamah;
+CHILD adik mamah;
+CHILD sepupu bibi;
+PREORDER;
+DELCHILD paman nenek;
+CHILD pamanJauh kakek;
+CHILD bibiJauh kakek;
+POSTORDER;
+END;
